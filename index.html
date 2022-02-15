@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Cook'Eat website</title>
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Cook'Eat</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#accueil" class="nav__link active-link">Accueil</a></li>
+                        <li class="nav__item"><a href="#us" class="nav__link">A propos de nous</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#recettes" class="nav__link">Recettes</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Nous contacter</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== PAGE D'ACCUEIL ==========-->
+            <section class="accueil" id="accueil">
+                <div class="accueil__container bd-container bd-grid">
+                    <div class="accueil__data">
+                        <h1 class="accueil__title">Bienvenue sur Cook'Eat</h1>
+                        <h2 class="accueil__subtitle">Retrouver toutes vos recettes préferer <br> de la semaine.</h2>
+                        <a href="#" class="button">Voir les recettes</a>
+                    </div>
+
+                    <!--========== IMAGE PAGE D'ACCUEIL ==========-->
+                    <img src="assets/img/accueil.png" alt="" class="accueil__img">
+                </div>
+            </section>
+
+            <!--========== onglet à propos de nous ==========-->
+            <section class="us section bd-container" id="us">
+                <div class="us__container  bd-grid">
+                    <div class="us__data">
+                        <span class="section-subtitle us__initial">A propos de nous</span>
+                        <h2 class="section-title us__initial">Nous proposons une palette de recettes <br> Toujours plus facile à réaliser</h2>
+                        <p class="us__description"> Notre réseaux social Cook’Eat a pour but de démocratiser l'alimentation saine, ainsi que de simplifier la tache quotidienne que devient la cuisiner par manque de temps .</p>
+                        <a href="#" class="button">En savoir plus sur nous</a>
+                    </div>
+                    <!--========== IMAGE A PROPOS DE NOUS ==========-->
+                    <img src="assets/img/us.png" alt="" class="us__img">
+                </div>
+            </section>
+
+            <!--========== SERVICES ==========-->
+            <section class="services section bd-container" id="services">
+                <span class="section-subtitle">Notre système</span>
+                <h2 class="section-title">Tout les avantages</h2>
+                <div class="services__container  bd-grid">
+
+
+
+
+                    <!--========== IMAGE SVG ==========-->
+                    <div class="services__content">
+                        <svg class="services__img" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                     			<path d="M485.684,117.988v-30.96H297.76c-17.56,0-33.007,9.216-41.76,23.065c-8.753-13.849-24.2-23.065-41.76-23.065H26.316
+                     				v30.96H0V415.61h214.24c0.968,0,1.756,0.789,1.756,1.758v7.604h80.007v-7.604c0-0.969,0.788-1.758,1.756-1.758H512V117.988
+                     				H485.684z M229.402,409.762c-2.791-5.546-8.54-9.36-15.162-9.36H15.208V133.196h11.108v250.016H214.24
+                     				c0.552,0,1.1,0.016,1.646,0.042c0.176,0.009,0.351,0.023,0.527,0.034c0.368,0.023,0.735,0.05,1.1,0.084
+                     				c0.207,0.02,0.412,0.045,0.616,0.067c0.335,0.039,0.667,0.08,0.999,0.128c0.21,0.029,0.42,0.063,0.629,0.097
+                     				c0.327,0.054,0.654,0.112,0.978,0.175c0.203,0.039,0.405,0.077,0.606,0.12c0.342,0.072,0.681,0.153,1.02,0.235
+                     				c0.176,0.044,0.354,0.083,0.529,0.13c0.435,0.114,0.866,0.237,1.295,0.368c0.074,0.022,0.149,0.042,0.222,0.064
+                     				c0.5,0.156,0.995,0.324,1.485,0.503c0.148,0.055,0.294,0.114,0.441,0.17c0.341,0.13,0.68,0.262,1.015,0.401
+                     				c0.182,0.075,0.36,0.155,0.54,0.234c0.299,0.131,0.596,0.265,0.89,0.403c0.187,0.088,0.371,0.178,0.555,0.27
+                     				c0.286,0.142,0.57,0.287,0.852,0.437c0.18,0.095,0.358,0.191,0.535,0.288c0.291,0.161,0.578,0.328,0.864,0.497
+                     				c0.159,0.095,0.319,0.188,0.477,0.283c0.34,0.209,0.673,0.426,1.006,0.646c0.096,0.064,0.196,0.125,0.292,0.191
+                     				c0.425,0.288,0.842,0.585,1.253,0.892c0.109,0.081,0.216,0.168,0.324,0.25c0.299,0.229,0.596,0.459,0.887,0.698
+                     				c0.147,0.12,0.291,0.244,0.436,0.367c0.248,0.21,0.494,0.422,0.736,0.638c0.151,0.136,0.3,0.274,0.449,0.412
+                     				c0.231,0.214,0.46,0.433,0.685,0.654c0.145,0.142,0.289,0.283,0.431,0.428c0.228,0.232,0.452,0.468,0.673,0.707
+                     				c0.129,0.139,0.26,0.275,0.386,0.416c0.248,0.276,0.491,0.56,0.731,0.844c0.091,0.107,0.186,0.213,0.275,0.321
+                     				c0.325,0.396,0.642,0.798,0.95,1.208c0.064,0.085,0.124,0.173,0.187,0.259c0.241,0.328,0.479,0.659,0.709,0.996
+                     				c0.101,0.149,0.199,0.302,0.299,0.453c0.185,0.279,0.367,0.561,0.542,0.846c0.105,0.17,0.207,0.343,0.309,0.515
+                     				c0.164,0.275,0.324,0.554,0.481,0.834c0.098,0.176,0.196,0.354,0.291,0.532c0.154,0.288,0.302,0.579,0.447,0.872
+                     				c0.086,0.173,0.174,0.347,0.258,0.522c0.155,0.326,0.303,0.657,0.448,0.991c0.063,0.145,0.13,0.287,0.192,0.433
+                     				c0.202,0.48,0.394,0.963,0.574,1.454c0.02,0.056,0.038,0.112,0.058,0.167c0.157,0.436,0.307,0.876,0.447,1.32
+                     				c0.053,0.165,0.099,0.334,0.149,0.501c0.1,0.338,0.199,0.676,0.29,1.018c0.052,0.194,0.098,0.389,0.147,0.584
+                     				c0.045,0.184,0.086,0.369,0.128,0.554H229.402z M248.396,327.248v54.52c-8.874-8.518-20.912-13.764-34.156-13.764H41.524V117.988
+                     				v-15.752H214.24c18.833,0,34.155,15.322,34.156,34.156v170.576h15.208V136.392c0-18.833,15.323-34.156,34.156-34.156h172.716
+                     				v15.752v250.016H297.76c-13.244,0-25.282,5.246-34.156,13.764v-54.52H248.396z M496.792,400.402H297.76
+                     				c-6.623,0-12.371,3.815-15.163,9.362h-18.129c0.043-0.185,0.083-0.37,0.128-0.554c0.048-0.195,0.095-0.39,0.147-0.584
+                     				c0.09-0.342,0.189-0.68,0.29-1.018c0.05-0.167,0.096-0.336,0.149-0.501c0.14-0.444,0.29-0.884,0.447-1.32
+                     				c0.02-0.056,0.037-0.112,0.058-0.167c0.18-0.49,0.373-0.974,0.574-1.454c0.061-0.146,0.128-0.288,0.192-0.433
+                     				c0.145-0.333,0.293-0.663,0.448-0.991c0.083-0.175,0.171-0.349,0.258-0.522c0.146-0.293,0.294-0.584,0.447-0.872
+                     				c0.095-0.179,0.193-0.357,0.291-0.532c0.156-0.281,0.316-0.56,0.481-0.834c0.102-0.172,0.205-0.345,0.309-0.515
+                     				c0.176-0.285,0.359-0.567,0.542-0.846c0.099-0.151,0.197-0.304,0.299-0.453c0.23-0.337,0.467-0.667,0.709-0.996
+                     				c0.063-0.085,0.123-0.173,0.187-0.258c0.307-0.411,0.625-0.813,0.95-1.209c0.09-0.108,0.185-0.214,0.275-0.321
+                     				c0.24-0.284,0.482-0.568,0.731-0.844c0.127-0.141,0.258-0.277,0.386-0.416c0.222-0.238,0.445-0.476,0.673-0.707
+                     				c0.142-0.145,0.286-0.286,0.431-0.428c0.225-0.221,0.454-0.44,0.685-0.654c0.149-0.139,0.298-0.276,0.449-0.412
+                     				c0.241-0.216,0.488-0.428,0.736-0.638c0.145-0.123,0.289-0.247,0.436-0.367c0.291-0.238,0.588-0.469,0.887-0.698
+                     				c0.108-0.082,0.215-0.169,0.324-0.25c0.411-0.307,0.828-0.604,1.253-0.892c0.096-0.065,0.196-0.126,0.292-0.191
+                     				c0.332-0.22,0.666-0.437,1.006-0.646c0.157-0.096,0.318-0.189,0.478-0.283c0.286-0.169,0.573-0.336,0.864-0.497
+                     				c0.177-0.098,0.356-0.193,0.535-0.288c0.282-0.149,0.566-0.295,0.852-0.437c0.185-0.091,0.369-0.181,0.555-0.27
+                     				c0.294-0.139,0.591-0.273,0.89-0.402c0.179-0.079,0.359-0.159,0.54-0.234c0.336-0.14,0.675-0.272,1.015-0.401
+                     				c0.147-0.057,0.293-0.116,0.441-0.17c0.49-0.178,0.984-0.347,1.485-0.503c0.073-0.022,0.148-0.042,0.222-0.064
+                     				c0.428-0.131,0.86-0.255,1.295-0.368c0.175-0.047,0.353-0.086,0.529-0.13c0.339-0.082,0.677-0.163,1.02-0.235
+                     				c0.201-0.043,0.404-0.081,0.606-0.12c0.324-0.064,0.651-0.122,0.978-0.175c0.209-0.034,0.419-0.067,0.629-0.097
+                     				c0.332-0.048,0.664-0.089,0.999-0.128c0.205-0.022,0.411-0.048,0.616-0.067c0.365-0.034,0.732-0.061,1.1-0.084
+                     				c0.175-0.011,0.351-0.025,0.527-0.034c0.545-0.025,1.094-0.042,1.646-0.042h187.924V133.196h11.109V400.402z"/>
+                            <rect x="58.256" y="137.723" width="164.965" height="15.208"/>
+                       			<rect x="180.974" y="168.149" width="42.244" height="15.208"/>
+                       			<rect x="58.256" y="168.149" width="102.441" height="15.208"/>
+                       			<rect x="288.778" y="137.723" width="164.965" height="15.208"/>
+                       			<rect x="288.778" y="168.149" width="164.965" height="15.208"/>
+                       			<rect x="288.778" y="228.981" width="164.965" height="15.208"/>
+                       			<rect x="288.778" y="198.565" width="117.202" height="15.208"/>
+                       			<path d="M149.847,241.136h-1.506v-4.89c0-5.049,4.108-9.158,9.158-9.158h12.434V211.88h-12.434
+
+                     				c-13.435,0-24.366,10.93-24.366,24.366v4.89h-1.506c-26.518,0-48.093,21.574-48.093,48.093s21.574,48.093,48.093,48.093h18.22
+                     				c26.519,0,48.093-21.574,48.093-48.093S176.365,241.136,149.847,241.136z M149.847,322.112h-18.22
+                     				c-18.132,0-32.885-14.752-32.885-32.885s14.752-32.885,32.885-32.885h1.506v15.43h15.208v-15.43h1.506
+                     				c18.132,0,32.885,14.752,32.885,32.885S167.98,322.112,149.847,322.112z"/>
+                            </svg>
+                        <h3 class="services__title">D'excellentes recettes</h3>
+                        <p class="services__description"> iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
+                    </div>
+
+
+
+
+                    <div class="services__content">
+                        <svg class="services__img" xmlns="http://www.w3.org/2000/svg"
+                        width="1280.000000pt" height="1280.000000pt" viewBox="0 0 1280.000000 1280.000000"
+                         preserveAspectRatio="xMidYMid meet">
+                        <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
+                        fill="first-color" stroke="none">
+                        <path d="M6095 12794 c-27 -2 -115 -8 -195 -14 -1158 -85 -2296 -503 -3249
+                        -1194 -1410 -1020 -2339 -2557 -2585 -4276 -49 -341 -60 -508 -60 -910 0 -402
+                        11 -569 60 -910 176 -1227 699 -2366 1518 -3305 132 -151 433 -452 594 -593
+                        968 -850 2160 -1386 3427 -1541 308 -38 447 -46 795 -46 348 0 487 8 795 46
+                        1993 244 3764 1427 4767 3184 456 799 722 1651 815 2610 24 253 24 857 0 1110
+                        -81 836 -282 1553 -638 2276 -496 1007 -1245 1859 -2194 2499 -271 183 -726
+                        428 -1045 563 -627 266 -1261 422 -1985 488 -112 10 -729 20 -820 13z m845
+                        -569 c748 -74 1424 -266 2069 -589 1755 -879 2947 -2559 3195 -4506 57 -444
+                        57 -1016 0 -1460 -190 -1489 -937 -2843 -2091 -3788 -864 -709 -1899 -1153
+                        -2993 -1286 -276 -34 -395 -41 -720 -41 -325 0 -444 7 -720 41 -2051 249
+                        -3828 1582 -4652 3489 -251 580 -400 1177 -460 1845 -28 312 -15 862 28 1200
+                        247 1945 1440 3627 3195 4506 714 357 1479 558 2309 608 141 8 692 -4 840 -19z"/>
+                        <path d="M2897 9376 c-83 -30 -140 -88 -169 -170 -16 -48 -17 -178 -18 -2272
+                        0 -2518 -8 -2287 84 -2380 91 -91 -23 -84 1468 -84 l1308 0 0 -410 0 -410
+                        -150 0 c-177 0 -213 -10 -236 -65 -18 -45 -10 -78 28 -110 l30 -25 1158 0
+                        1158 0 30 25 c36 30 45 69 26 113 -21 52 -59 62 -234 62 l-150 0 0 410 0 410
+                        1308 0 c1491 0 1377 -7 1468 85 92 92 85 -140 82 2395 l-3 2235 -21 45 c-26
+                        54 -74 104 -128 133 l-41 22 -3480 2 c-2903 2 -3486 0 -3518 -11z m6848 -2431
+                        l0 -2110 -3345 0 -3345 0 -3 2100 c-1 1155 0 2106 3 2113 3 10 678 12 3347 10
+                        l3343 -3 0 -2110z"/>
+                        <path d="M9042 8233 c-52 -26 -77 -69 -77 -136 l0 -57 -470 -515 -470 -515
+                        -41 0 c-27 0 -54 -8 -78 -25 -20 -14 -42 -25 -49 -25 -7 0 -273 48 -592 107
+                        l-580 106 -38 43 c-47 54 -95 71 -154 55 -70 -19 -121 -99 -110 -173 1 -10
+                        -170 -186 -460 -471 l-462 -455 -43 5 c-30 3 -54 -2 -81 -16 l-39 -20 -370
+                        152 -370 152 -13 39 c-40 117 -176 150 -254 61 -35 -40 -48 -92 -33 -135 11
+                        -29 5 -37 -330 -435 l-341 -405 -46 0 c-116 0 -184 -124 -123 -223 79 -126
+                        277 -63 270 87 l-2 49 344 408 c315 374 346 409 374 409 17 0 44 7 59 15 28
+                        14 40 10 395 -136 202 -83 373 -153 380 -156 7 -3 20 -23 29 -44 60 -152 283
+                        -110 283 52 l0 44 460 453 460 453 58 2 c47 2 66 8 95 30 19 15 42 27 50 27 8
+                        0 270 -47 583 -105 430 -80 571 -109 579 -122 40 -64 95 -103 147 -103 12 0
+                        40 9 63 20 56 27 89 86 82 146 l-5 45 473 517 472 517 46 0 c108 1 175 111
+                        127 210 -37 75 -123 105 -198 68z"/>
+                        </g>
+                        </svg>
+                        <h3 class="services__title">Motivation</h3>
+                        <p class="services__description"> iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
+                    </div>
+
+
+
+
+                    <div class="services__content">
+                        <svg class="services__img" xmlns="http://www.w3.org/2000/svg"
+                        width="1280.000000pt" height="1280.000000pt" viewBox="0 0 1280.000000 1280.000000"
+                        preserveAspectRatio="xMidYMid meet">
+                       <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
+                       fill="first-color" stroke="none">
+                       <path d="M5940 12429 c-1642 -120 -3167 -903 -4228 -2169 -1123 -1341 -1613
+                       -3105 -1346 -4840 92 -599 273 -1178 539 -1727 633 -1307 1731 -2357 3070
+                       -2936 1996 -861 4325 -586 6060 718 235 176 416 336 655 575 323 322 545 591
+                       775 940 898 1359 1214 3005 885 4606 -375 1821 -1589 3390 -3265 4218 -700
+                       346 -1428 547 -2221 611 -201 16 -723 18 -924 4z m887 -954 c973 -80 1923
+                       -450 2703 -1054 1498 -1159 2237 -3042 1929 -4911 -214 -1298 -930 -2475
+                       -1989 -3271 -267 -200 -504 -345 -815 -499 -582 -286 -1144 -444 -1820 -512
+                       -198 -19 -739 -16 -950 6 -963 100 -1824 436 -2590 1011 -211 158 -353 283
+                       -550 480 -1178 1180 -1704 2832 -1429 4485 134 805 460 1564 958 2230 273 366
+                       657 748 1029 1027 1019 763 2242 1113 3524 1008z"/>
+                       <path d="M6135 10783 c-777 -48 -1523 -293 -2165 -711 -768 -500 -1369 -1230
+                       -1698 -2063 -283 -716 -381 -1473 -286 -2214 47 -370 135 -708 275 -1065 122
+                       -310 249 -553 444 -845 551 -827 1353 -1433 2309 -1746 793 -260 1665 -288
+                       2471 -79 1735 449 3025 1881 3285 3645 38 254 45 358 44 660 0 220 -5 340 -18
+                       450 -64 554 -199 1017 -437 1500 -699 1423 -2104 2360 -3694 2465 -138 9 -410
+                       11 -530 3z m327 -1684 c128 -34 237 -64 241 -68 4 -5 -38 -182 -94 -395 -56
+                       -213 -100 -388 -98 -390 6 -4 384 -95 386 -92 1 1 47 175 103 386 56 212 103
+                       386 104 387 4 4 471 -120 479 -127 4 -4 -37 -177 -92 -386 -55 -208 -101 -387
+                       -103 -397 -2 -14 19 -26 107 -61 514 -202 798 -468 856 -802 18 -102 6 -289
+                       -25 -408 -80 -308 -263 -498 -563 -587 l-42 -12 56 -34 c183 -110 309 -235
+                       378 -376 64 -131 79 -197 79 -347 0 -395 -221 -827 -512 -1000 -171 -101 -322
+                       -139 -584 -147 -206 -6 -328 3 -566 43 -85 14 -155 24 -157 22 -2 -2 -50 -179
+                       -106 -393 -56 -215 -106 -394 -110 -399 -6 -6 -474 107 -486 118 -1 1 45 179
+                       102 396 57 217 101 398 97 402 -4 4 -52 18 -107 32 -55 14 -138 37 -185 50
+                       -46 14 -85 24 -87 23 -1 -2 -48 -178 -104 -392 -56 -215 -105 -394 -109 -398
+                       -8 -9 -470 108 -481 121 -3 4 41 183 98 397 56 215 103 395 103 401 0 13 -3
+                       14 -570 164 -242 64 -404 112 -403 119 2 6 57 132 123 279 l121 269 177 -49
+                       c205 -57 271 -63 325 -29 20 12 45 37 57 56 25 41 600 2220 600 2275 0 100
+                       -75 198 -181 237 -30 12 -132 40 -227 64 -95 24 -171 49 -169 54 2 6 32 121
+                       67 258 47 180 68 247 79 247 8 0 152 -36 320 -81 521 -138 645 -169 652 -161
+                       4 4 53 184 109 400 57 215 105 392 106 392 2 0 108 -27 236 -61z"/>
+                       <path d="M6364 7656 c-2 -6 -58 -218 -124 -471 -66 -253 -123 -467 -125 -475
+                       -9 -29 403 -129 615 -151 374 -37 593 79 656 348 66 281 -134 500 -590 648
+                       -188 60 -426 117 -432 101z"/>
+                       <path d="M5980 6198 c0 -2 -63 -241 -140 -533 -76 -291 -136 -533 -132 -536
+                       10 -10 290 -85 424 -114 198 -42 317 -57 473 -58 335 -3 515 93 596 319 30 82
+                       31 228 2 300 -77 195 -284 346 -643 469 -138 47 -580 163 -580 153z"/>
+                       </g>
+                       </svg>
+                        <h3 class="services__title">Monétisation</h3>
+                        <p class="services__description"> iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
+                    </div>
+
+
+
+                    <div class="services__content">
+                        <svg class="services__img" xmlns="http://www.w3.org/2000/svg"
+                        width="1280.000000pt" height="1280.000000pt" viewBox="0 0 1280.000000 1280.000000"
+                        preserveAspectRatio="xMidYMid meet">
+                       <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
+                       fill="first-color" stroke="none">
+                       <path d="M5940 12429 c-1642 -120 -3167 -903 -4228 -2169 -1123 -1341 -1613
+                       -3105 -1346 -4840 92 -599 273 -1178 539 -1727 633 -1307 1731 -2357 3070
+                       -2936 1996 -861 4325 -586 6060 718 235 176 416 336 655 575 323 322 545 591
+                       775 940 898 1359 1214 3005 885 4606 -375 1821 -1589 3390 -3265 4218 -700
+                       346 -1428 547 -2221 611 -201 16 -723 18 -924 4z m887 -954 c973 -80 1923
+                       -450 2703 -1054 1498 -1159 2237 -3042 1929 -4911 -214 -1298 -930 -2475
+                       -1989 -3271 -267 -200 -504 -345 -815 -499 -582 -286 -1144 -444 -1820 -512
+                       -198 -19 -739 -16 -950 6 -963 100 -1824 436 -2590 1011 -211 158 -353 283
+                       -550 480 -1178 1180 -1704 2832 -1429 4485 134 805 460 1564 958 2230 273 366
+                       657 748 1029 1027 1019 763 2242 1113 3524 1008z"/>
+                       <path d="M6135 10783 c-777 -48 -1523 -293 -2165 -711 -768 -500 -1369 -1230
+                       -1698 -2063 -283 -716 -381 -1473 -286 -2214 47 -370 135 -708 275 -1065 122
+                       -310 249 -553 444 -845 551 -827 1353 -1433 2309 -1746 793 -260 1665 -288
+                       2471 -79 1735 449 3025 1881 3285 3645 38 254 45 358 44 660 0 220 -5 340 -18
+                       450 -64 554 -199 1017 -437 1500 -699 1423 -2104 2360 -3694 2465 -138 9 -410
+                       11 -530 3z m327 -1684 c128 -34 237 -64 241 -68 4 -5 -38 -182 -94 -395 -56
+                       -213 -100 -388 -98 -390 6 -4 384 -95 386 -92 1 1 47 175 103 386 56 212 103
+                       386 104 387 4 4 471 -120 479 -127 4 -4 -37 -177 -92 -386 -55 -208 -101 -387
+                       -103 -397 -2 -14 19 -26 107 -61 514 -202 798 -468 856 -802 18 -102 6 -289
+                       -25 -408 -80 -308 -263 -498 -563 -587 l-42 -12 56 -34 c183 -110 309 -235
+                       378 -376 64 -131 79 -197 79 -347 0 -395 -221 -827 -512 -1000 -171 -101 -322
+                       -139 -584 -147 -206 -6 -328 3 -566 43 -85 14 -155 24 -157 22 -2 -2 -50 -179
+                       -106 -393 -56 -215 -106 -394 -110 -399 -6 -6 -474 107 -486 118 -1 1 45 179
+                       102 396 57 217 101 398 97 402 -4 4 -52 18 -107 32 -55 14 -138 37 -185 50
+                       -46 14 -85 24 -87 23 -1 -2 -48 -178 -104 -392 -56 -215 -105 -394 -109 -398
+                       -8 -9 -470 108 -481 121 -3 4 41 183 98 397 56 215 103 395 103 401 0 13 -3
+                       14 -570 164 -242 64 -404 112 -403 119 2 6 57 132 123 279 l121 269 177 -49
+                       c205 -57 271 -63 325 -29 20 12 45 37 57 56 25 41 600 2220 600 2275 0 100
+                       -75 198 -181 237 -30 12 -132 40 -227 64 -95 24 -171 49 -169 54 2 6 32 121
+                       67 258 47 180 68 247 79 247 8 0 152 -36 320 -81 521 -138 645 -169 652 -161
+                       4 4 53 184 109 400 57 215 105 392 106 392 2 0 108 -27 236 -61z"/>
+                       <path d="M6364 7656 c-2 -6 -58 -218 -124 -471 -66 -253 -123 -467 -125 -475
+                       -9 -29 403 -129 615 -151 374 -37 593 79 656 348 66 281 -134 500 -590 648
+                       -188 60 -426 117 -432 101z"/>
+                       <path d="M5980 6198 c0 -2 -63 -241 -140 -533 -76 -291 -136 -533 -132 -536
+                       10 -10 290 -85 424 -114 198 -42 317 -57 473 -58 335 -3 515 93 596 319 30 82
+                       31 228 2 300 -77 195 -284 346 -643 469 -138 47 -580 163 -580 153z"/>
+                       </g>
+                       </svg>
+                        <h3 class="services__title">Bon de réduction</h3>
+                        <p class="services__description"> iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
+                    </div>
+
+
+
+                  <!--========== MENU DES RECETTES DE LA SEMAINE ==========-->
+          </section>
+            <section class="recettes section bd-container" id="recettes">
+                <span class="section-subtitle">Les coups de coeur</span>
+                <h2 class="section-title">Recettes de la semaine</h2>
+
+                <div class="recettes__container bd-grid">
+                    <div class="recettes__content">
+                        <img src="assets/img/plate1.png" alt="" class="recettes__img">
+                        <h3 class="recettes__name">Salade viande fumé</h3>
+                        <span class="mrecettes__detail">voluptatem accusantium</span>
+
+                    </div>
+
+                    <div class="recettes__content">
+                        <img src="assets/img/plate2.png" alt="" class="menu__img">
+                        <h3 class="recettes__name">Salade au poisson </h3>
+                        <span class="recettes__detail">voluptatem accusantium</span>
+
+                    </div>
+
+                    <div class="recettes__content">
+                        <img src="assets/img/plate3.png" alt="" class="recettes__img">
+                        <h3 class="recettes__name">Salade oriental</h3>
+                        <span class="recettes__detail">voluptatem accusantium</span>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--===== APP =======-->
+            <section class="app section bd-container">
+                <div class="app__container bd-grid">
+                    <div class="app__data">
+                        <span class="section-subtitle app__initial">Plus de recettes ?</span>
+                        <h2 class="section-title app__initial">Télécharger l'App</h2>
+                        <p class="app__description">Si dans le mode de vie trépidant d'aujourd'hui, il vous est difficile de trouver des moyens de manger sainement, et que vous aimerez cuisiner mais ne savez pas quoi faire...ou comment le faire ? Vous manquez de temps, de motivation et d'information ?<br>
+Alors Cook'Eat est fait pour vous !</p>
+                        <div class="app__stores">
+                            <a href="#"><img src="assets/img/app1.png" alt="" class="app__store"></a>
+                            <a href="#"><img src="assets/img/app2.png" alt="" class="app__store"></a>
+                        </div>
+                    </div>
+
+                    <img src="assets/img/mobil-app.png" alt="" class="app__img">
+                </div>
+            </section>
+
+            <!--==========  NOUS CONTACTER  ==========-->
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container bd-grid">
+                    <div class="contact__data">
+                        <span class="section-subtitle contact__initial">Plus d'information ?</span>
+                        <h2 class="section-title contact__initial">Contacter nous</h2>
+                        <p class="contact__description">niam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+
+                    <div class="contact__button">
+                        <a href="#" class="button">Nous Contacter</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">Cook'Eat</a>
+                    <span class="footer__description">Réseaux social</span>
+                    <div>
+                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">ullamco laboris</a></li>
+                        <li><a href="#" class="footer__link">ullamco laboris</a></li>
+                        <li><a href="#" class="footer__link">ullamco laboris</a></li>
+                        <li><a href="#" class="footer__link">ullamco laboris</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Informations</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">ullamco laboris</a></li>
+                        <li><a href="#" class="footer__link">ullamco laboris</a></li>
+                        <li><a href="#" class="footer__link">ullamco laboris</a></li>
+                        <li><a href="#" class="footer__link">ullamco laboris</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Adress</h3>
+                    <ul>
+                        <li>Paris centre</li>
+                        <li> 27 Rue des millionaires </li>
+                        <li> 0984673562</li>
+                        <li>Cook-eat@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">Cook'Eat vous accompagne partout</p>
+        </footer>
+
+        <!--========== Animation SCROLL REVEAL  POUR LES IMAGES  ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
