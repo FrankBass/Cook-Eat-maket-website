@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,8 @@
         <!--========== BOX ICONS ==========-->
 
         <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
 
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -19,6 +21,7 @@
         <a href="#" class="scrolltop" id="scroll-top">
             <i class='bx bx-chevron-up scrolltop__icon'></i>
         </a>
+<header>
 
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
@@ -298,23 +301,45 @@
 
 
 
-                  <!--========== MENU DES RECETTES DE LA SEMAINE ==========-->
+                  <!--==========  RECETTES DE LA SEMAINE ==========-->
           </section>
             <section class="recettes section bd-container" id="recettes">
                 <span class="section-subtitle">Les coups de coeur</span>
                 <h2 class="section-title">Recettes de la semaine</h2>
-
                 <div class="recettes__container bd-grid">
+
+
                     <div class="recettes__content">
                         <img src="assets/img/plate1.png" alt="" class="recettes__img">
                         <h3 class="recettes__name">Salade viande fumé</h3>
-                        <span class="mrecettes__detail">voluptatem accusantium</span>
+                        <span class="recettes__detail">voluptatem accusantium</span>
 
                     </div>
 
                     <div class="recettes__content">
-                        <img src="assets/img/plate2.png" alt="" class="menu__img">
+                        <img src="assets/img/plate2.png" alt="" class="recettes__img">
                         <h3 class="recettes__name">Salade au poisson </h3>
+                        <span class="recettes__detail">voluptatem accusantium</span>
+
+                    </div>
+
+                    <div class="recettes__content">
+                        <img src="assets/img/plate3.png" alt="" class="recettes__img">
+                        <h3 class="recettes__name">Salade oriental</h3>
+                        <span class="recettes__detail">voluptatem accusantium</span>
+
+                    </div>
+
+                    <div class="recettes__content">
+                        <img src="assets/img/plate3.png" alt="" class="recettes__img">
+                        <h3 class="recettes__name">Salade oriental</h3>
+                        <span class="recettes__detail">voluptatem accusantium</span>
+
+                    </div>
+
+                    <div class="recettes__content">
+                        <img src="assets/img/plate3.png" alt="" class="recettes__img">
+                        <h3 class="recettes__name">Salade oriental</h3>
                         <span class="recettes__detail">voluptatem accusantium</span>
 
                     </div>
@@ -362,51 +387,72 @@ Alors Cook'Eat est fait pour vous !</p>
             </section>
         </main>
 
-        <!--========== FOOTER ==========-->
-        <footer class="footer section bd-container">
-            <div class="footer__container bd-grid">
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
                 <div class="footer__content">
-                    <a href="#" class="footer__logo">Cook'Eat</a>
-                    <span class="footer__description">Réseaux social</span>
-                    <div>
-                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
-                        <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
-                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" class="footer__logo">
+                        <i class="ri-leaf-line footer__logo-icon"></i> Cook'Eat
+                    </a>
+
+                    <h3 class="footer__title"> rester au courant:
+                    </h3>
+
+                    <div class="footer__subscribe">
+                        <input type="email" placeholder="Entrer votre mail " class="footer__input">
+
+                        <button class="button button--flex footer__button">Abonnez-vous
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
                     </div>
                 </div>
 
                 <div class="footer__content">
-                    <h3 class="footer__title">Services</h3>
-                    <ul>
-                        <li><a href="#" class="footer__link">ullamco laboris</a></li>
-                        <li><a href="#" class="footer__link">ullamco laboris</a></li>
-                        <li><a href="#" class="footer__link">ullamco laboris</a></li>
-                        <li><a href="#" class="footer__link">ullamco laboris</a></li>
+                    <h3 class="footer__title">Votre adresse</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">quis nostrud exercitation ullamco</li>
+                        <li class="footer__information">quis nostrud exercitation ullamco</li>
+                        <li class="footer__information">quis nostrud exercitation ullamco</li>
                     </ul>
                 </div>
 
                 <div class="footer__content">
-                    <h3 class="footer__title">Informations</h3>
-                    <ul>
-                        <li><a href="#" class="footer__link">ullamco laboris</a></li>
-                        <li><a href="#" class="footer__link">ullamco laboris</a></li>
-                        <li><a href="#" class="footer__link">ullamco laboris</a></li>
-                        <li><a href="#" class="footer__link">ullamco laboris</a></li>
+                    <h3 class="footer__title">Nous contacter </h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+33000000000</li>
+
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
                     </ul>
                 </div>
 
                 <div class="footer__content">
-                    <h3 class="footer__title">Adress</h3>
-                    <ul>
-                        <li>Paris centre</li>
-                        <li> 27 Rue des millionaires </li>
-                        <li> 0984673562</li>
-                        <li>Cook-eat@gmail.com</li>
-                    </ul>
+                    <h3 class="footer__title">
+                        Nos acceptons les modes de payement suivant
+                    </h3>
+
+                    <div class="footer__cards">
+                        <img src="assets/img/card1.png" alt="" class="footer__card">
+                        <img src="assets/img/card2.png" alt="" class="footer__card">
+                        <img src="assets/img/card3.png" alt="" class="footer__card">
+                        <img src="assets/img/card4.png" alt="" class="footer__card">
+                    </div>
                 </div>
             </div>
 
-            <p class="footer__copy">Cook'Eat vous accompagne partout</p>
+            <p class="footer__copy">Manger sainement commence maintenant</p>
         </footer>
 
         <!--========== Animation SCROLL REVEAL  POUR LES IMAGES  ==========-->
