@@ -16,15 +16,8 @@
   --container-color: #FFFFFF;
 
 
-  /*========== Font and typography ==========*/
-  --body-font: 'Poppins', sans-serif;
-  --biggest-font-size: 2.25rem;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
+
+
 
   /*========== Font weight ==========*/
   --font-medium: 500;
@@ -48,7 +41,7 @@
 @media screen and (min-width: 768px){
   :root{
     --biggest-font-size: 4rem;
-    --h1-font-size: 2.25rem;
+    --h1-font-size: 1.5em;
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
@@ -66,7 +59,7 @@ html{
 }
 
 
-button,
+
 textarea{
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
@@ -80,7 +73,7 @@ body{
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
-  line-height: 1.6;
+
 }
 
 .button{
@@ -115,6 +108,9 @@ body.dark-theme{
   --text-color: #C7D1CC;
   --body-color: #1D2521;
   --container-color: #27302C;
+  --font-size: var(--normal-font-size);
+  --color: var(--text-color);
+
 }
 
 /*========== Button Dark/Light ==========*/
@@ -126,6 +122,25 @@ body.dark-theme{
   font-size: 1rem;
   cursor: pointer;
 }
+
+
+.change-like{
+
+  margin-left:1740%;
+  color: var(--text-color);
+  font-size: 0.90rem;
+  cursor: pointer;
+
+}
+
+
+.change-account{
+  top: 1.9rem;
+  color: var(--text-color);
+  cursor: pointer;
+
+}
+
 
 
 
@@ -140,6 +155,7 @@ body.dark-theme{
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-2);
   line-height: 140%;
+
 }
 
 .section-title{
@@ -176,6 +192,7 @@ body.dark-theme{
 
 .button:hover{
   background-color: var(--first-color-alt);
+
 }
 
 
@@ -187,10 +204,10 @@ body.dark-theme{
   display: inline-block;
   background-color: var(--first-color);
   color: #FFF;
-  padding: 1rem 1.75rem;
+  padding: 0.30rem 1.75rem;
   border-radius: .5rem;
-  font-weight: var(--font-medium);
   transition: .3s;
+
 }
 
 
@@ -346,16 +363,17 @@ body.dark-theme{
 .accueil__container{
   height: calc(100vh - var(--header-height));
   align-content: center;
+  font-size: 1.5em;
 }
 
 .accueil__title{
-  font-size: var(--biggest-font-size);
   color: var(--first-color);
   margin-bottom: var(--mb-1);
+    font-size: 1.5em;
 }
 
 .accueil__subtitle{
-  font-size: var(--h1-font-size);
+  font-size: 1em;
   color: var(--title-color);
   margin-bottom: var(--mb-4);
 }
@@ -415,6 +433,9 @@ body.dark-theme{
 .recettes__container{
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
+  transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s;
+transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
 }
 
 .recettes__content{
@@ -425,10 +446,10 @@ body.dark-theme{
   border-radius: .5rem;
   box-shadow: 0 2px 4px rgba(3,74,40,.15);
   padding: .75rem;
+
 }
 
 .recettes__img{
-  width: 100px;
   align-self: center;
   margin-bottom: var(--mb-2);
 }
@@ -436,16 +457,19 @@ body.dark-theme{
 .recettes__name {
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
-  font-size: var(--normal-font-size);
+  align-self: center;
+
 }
 
 
 .recettes_detail, .recettes__preci{
   font-size: var(--small-font-size);
+
 }
 
 .recettes__detail{
   margin-bottom: var(--mb-1);
+  align-self: center;
 }
 
 .recettes__button{
@@ -455,6 +479,7 @@ body.dark-theme{
   display: flex;
   padding: .625rem .813rem;
   border-radius: .5rem 0 .5rem 0;
+  align-self: center;
 }
 
 
@@ -469,12 +494,9 @@ body.dark-theme{
   margin-bottom: var(--mb-5);
 }
 
-.app__stores{
-  margin-bottom: var(--mb-4);
-}
 
 .app__store{
-  width: 120px;
+  width: 150px;
   margin: 0 var(--mb-1);
 }
 
@@ -534,8 +556,6 @@ body.dark-theme{
 
 .footer__subscribe{
   background-color: var(--first-color-lighten);
-  padding: 0?75rem;
-  display: flex;
   justify-content: space-between;
   border-radius: .5rem;
 }
@@ -543,7 +563,7 @@ body.dark-theme{
 
 /*========== TAIILE DE LA BARRE D'EMAIL ==========*/
 .footer__input{
-  width: 57%;
+  width: 75%;
   padding: 0.60rem;
   background: grid;
   color: var(--text-color);
@@ -555,7 +575,7 @@ body.dark-theme{
 /*==========  TAILE DU BOUTON ABONNEZ VOUS ==========*/
 
 .footer__button{
-  padding: 0.7rem;
+padding: 0.80rem 1.75rem;
 }
 
 .footer__data{
@@ -637,17 +657,11 @@ body.dark-theme{
     justify-self: center;
   }
 
-
-
   .footer__subscribe{
     width:auto;
    display:flex;
   }
 }
-
-
-
-
 
 
 
