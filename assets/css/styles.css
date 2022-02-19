@@ -433,8 +433,6 @@ body.dark-theme{
 .recettes__container{
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
-  transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s;
-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
 }
 }
 
